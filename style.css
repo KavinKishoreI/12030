@@ -183,9 +183,11 @@ input {
 }
 
 
-@media only screen and (max-width:900px){
+@media only screen and (max-width:800px){
     .doc{
         display: none;
+        margin:0px;
+        padding:0px;
     }
     header{
         display:flex;
@@ -196,8 +198,8 @@ input {
 
     }
     header > img {
-        width:250px;
-        height: 150px;
+        width:400px;
+        height: 300px;
         margin-bottom: 40px;
     }
     .header-details > h1{
